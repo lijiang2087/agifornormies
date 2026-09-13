@@ -22,19 +22,16 @@ npm run build
 
 The production build is a static export in `out/`, so it needs no server runtime or secrets.
 
-## Deploy to Cloudflare Pages
+## Deploy to Cloudflare
 
-The repository includes `wrangler.toml` and a deploy script.
+This is a static Next.js export. On Cloudflare it should be a **Worker with static assets** (Workers Builds), not a classic Pages Git project.
 
-### Git integration
-
-Configure this as a **Pages/static assets** build, not a Worker:
+`wrangler.toml` points assets at `out/`. Git-connected builds need:
 
 - Build command: `npm run build`
-- Deploy command: `npx wrangler pages deploy ./out`
-- Build output directory: `out`
+- Deploy command: `npx wrangler deploy`
 
-The build produces the static site in `out/`. Do not use `npx wrangler deploy`: that is the Worker deployment command and expects a Worker entry point or assets configuration.
+Workers Builds always requires a deploy command. `npx wrangler pages deploy` will fail there: the injected API token can publish Workers, not Pages projects.
 
 ### Manual deployment
 
@@ -44,20 +41,15 @@ The build produces the static site in `out/`. Do not use `npx wrangler deploy`: 
    npx wrangler login
    ```
 
-   For CI instead, set `CLOUDFLARE_API_TOKEN` (Pages Edit permission) and `CLOUDFLARE_ACCOUNT_ID`.
-2. Create the Pages project once (skip this if it already exists):
-
-   ```bash
-   npm run cf:project
-   ```
-3. Deploy:
+   For CI instead, set `CLOUDFLARE_API_TOKEN` (Workers Scripts Edit) and `CLOUDFLARE_ACCOUNT_ID`.
+2. Deploy:
 
    ```bash
    npm run deploy
    ```
 
-   This updates the `agifornormies` Pages project and prints its `*.pages.dev` URL.
-4. In **Cloudflare Dashboard → Workers & Pages → agifornormies → Custom domains**, add `agifornormies.com` and optionally `www.agifornormies.com`.
-5. The apex domain (`agifornormies.com`) must have an active Cloudflare DNS zone. If the registrar is not already using Cloudflare nameservers, add the zone in Cloudflare and change the domain’s nameservers to the two values Cloudflare assigns. The Pages domain setup then creates the required DNS record.
+   This uploads `out/` as Worker static assets and prints the `*.workers.dev` URL.
+3. In **Cloudflare Dashboard → Workers & Pages → agifornormies → Custom domains**, add `agifornormies.com` and optionally `www.agifornormies.com`.
+4. The apex domain (`agifornormies.com`) must have an active Cloudflare DNS zone. If the registrar is not already using Cloudflare nameservers, add the zone in Cloudflare and change the domain’s nameservers to the two values Cloudflare assigns.
 
 The custom domain cannot be attached without credentials for the Cloudflare account and control of the domain’s DNS zone.

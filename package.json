@@ -7,8 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "cf:project": "wrangler pages project create agifornormies --production-branch main",
-    "deploy": "npm run build && wrangler pages deploy ./out --project-name agifornormies"
+    "deploy": "npm run build && wrangler deploy"
   },
   "dependencies": {
     "@base-ui/react": "^1.8.0",
