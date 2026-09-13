@@ -26,6 +26,18 @@ The production build is a static export in `out/`, so it needs no server runtime
 
 The repository includes `wrangler.toml` and a deploy script.
 
+### Git integration
+
+Configure this as a **Pages/static assets** build, not a Worker:
+
+- Build command: `npm run build`
+- Deploy command: `npx wrangler pages deploy ./out`
+- Build output directory: `out`
+
+The build produces the static site in `out/`. Do not use `npx wrangler deploy`: that is the Worker deployment command and expects a Worker entry point or assets configuration.
+
+### Manual deployment
+
 1. Authenticate once with an account that has access to the Cloudflare account which owns `agifornormies.com`:
 
    ```bash
