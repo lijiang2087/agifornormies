@@ -1,6 +1,6 @@
 # AGI for Normies
 
-A deliberately small, analogy-first guide to the causal chain from **data → learning → neural networks → language models → reasoning → tools → agents → harnesses → real-world work → robotics → AGI**.
+A deliberately small, analogy-first guide to the causal chain from **data → learning → neural networks → language models → reasoning → memory → tools → agents → harnesses → senses → robotics → AGI**.
 
 The live slice contains the map and the first block, **Data**. It is intentionally not a full curriculum.
 

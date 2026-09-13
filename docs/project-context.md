@@ -6,7 +6,7 @@ Li guides. Keep the map minimal. Build one block at a time.
 
 ## The chain
 
-**data → learning → neural networks → language models → reasoning → tools → agents → harnesses → real-world work → robotics → AGI**
+**data → learning → neural networks → language models → reasoning → memory → tools → agents → harnesses → senses → robotics → AGI**
 
 Every next idea answers: **what problem did this solve?** A story people can reconstruct, not a vocabulary pile.
 
@@ -17,9 +17,8 @@ Every next idea answers: **what problem did this solve?** A story people can rec
 3. From predicting words to thinking — post-training, reasoning
 4. Intelligence starts doing things — memory, tools, agents
 5. Why agents need infrastructure — harnesses
-6. What this enables — coding, research, marketing, business
-7. Digital to physical — multimodality, world models, robotics
-8. Then AGI — what would it actually mean?
+6. Digital to physical — senses, robotics
+7. Then AGI — what would it actually mean?
 
 ## Each lesson (same five parts)
 
