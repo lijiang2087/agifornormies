@@ -8,6 +8,7 @@ import "./globals.css";
 const fraunces = Fraunces({
   subsets: ["latin"],
   style: ["normal", "italic"],
+  axes: ["SOFT", "WONK", "opsz"],
   variable: "--font-fraunces",
   display: "swap",
 });
@@ -15,7 +16,7 @@ const fraunces = Fraunces({
 export const metadata: Metadata = {
   title: "AGI for Normies — from data to AGI",
   description:
-    "A plain English guide through the ideas behind today's AI.",
+    "An essential guide to the ideas behind today's AI.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

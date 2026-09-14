@@ -132,4 +132,15 @@
   html {
     @apply font-sans;
   }
+  .font-heading {
+    font-optical-sizing: auto;
+    font-variation-settings: "WONK" 0, "SOFT" 30;
+    font-variant-ligatures: none;
+  }
+  .wordmark {
+    font-family: var(--font-heading);
+    font-optical-sizing: none;
+    font-variation-settings: "WONK" 0, "SOFT" 30, "opsz" 18;
+    font-variant-ligatures: none;
+  }
 }

@@ -14,10 +14,10 @@ export default function Home() {
       <section className="mx-auto grid max-w-6xl items-center gap-10 px-5 pb-16 pt-8 sm:px-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.05fr)] lg:gap-16 lg:pb-24 lg:pt-12">
         <div className="max-w-xl">
           <h1 className="font-heading text-[3.15rem] leading-[1.05] sm:text-6xl lg:text-[4.35rem]">
-            How we got from data to <span className="text-pop">AGI.</span>
+            How we got to <span className="text-pop">AGI.</span>
           </h1>
           <p className="mt-6 text-lg leading-8 text-quiet">
-            A plain English guide through the ideas behind today&apos;s AI.
+            An essential guide to the ideas behind today&apos;s AI.
           </p>
         </div>
         <Picture

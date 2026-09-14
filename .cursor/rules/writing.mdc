@@ -1,38 +1,142 @@
 ---
-description: Site-wide voice for AGI for Normies copy
+description: House style for all AGI for Normies copy
 alwaysApply: true
 ---
 
 # Writing
 
-Write like a WIRED feature, a New York Times explainer, or a piece in The Information. Complete sentences. Reported prose. A curious adult explaining something real.
+This site explains a chain of ideas. It is not an op-ed, a jobs essay, or a pep talk.
 
-## One reader, three depths
+One voice. One reader in the chair. A curious adult explaining something real.
 
-A topic page is one article. The same person reads all three sections, and each section goes deeper than the last.
+A new comment is a new constraint. Keep the old ones. Re-read this file before rewriting a paragraph. Do not throw out college-level openings because the last note was about jobs, or throw out jobs because the last note was about explaining.
 
-1. Under the title: one everyday picture. What the thing is. Stop there. Do not preview the mechanism or the history.
-2. The concept: how it works. New information. Assume they already have the picture.
-3. The industry section: who did what, when, what broke when it shipped. Assume they already have the mechanism.
+Do not imitate three magazines at once. The first two sections should sound like a New York Times explainer: complete sentences, a picture, then how the thing works. The third section should sound like The Information: a person, a year, a number. WIRED is the curiosity, not the punchlines.
 
-Do not recap. Do not write the same idea at three altitudes for three imagined audiences.
+## The read-aloud test
+
+Read the finished paragraph out loud. A sharp teenager can still follow because you unpacked the terms, not because you talked down. The floor of the first section is college, not middle school.
+
+If the opening sounds like a children's book, you babied it. If the engineering student is bored, you recapped. If the tech worker hears a slide deck, you wrote AI. Each section adds. Do not write the same thought three times at three ages.
+
+## One article, three depths
+
+A topic page is one piece. Each section adds information the last one did not have.
+
+1. Under the title: college-level explanation of what the thing is. Subject first. Name it once. Stop. Do not preview the mechanism, the history, or the social impact.
+2. The concept: how it works, with the detail a college engineering student would actually need. Assume they have the picture. Lived consequence belongs here only after the mechanism.
+3. The industry section: who did what, when, and what the number is now, at the level of a professional in San Francisco. Assume they have the mechanism.
+
+If section 2 could be understood without section 1, you recapped.
+
+## How an opening is allowed to start
+
+Two shapes. Both explain. Neither lectures.
+
+1. Subject first, then what people have used the word for.
+
+   > AGI is a term that has been used by people for a machine that can do many kinds of intellectual work at the level of a person, without being rebuilt for each new job.
+
+2. A person in a scene, then the name. The Data gold sample.
+
+   > You don't teach a kid what a dog is by reading them a definition. You point at one, then another, then a cat, and after enough pointing they just know. A machine needs the same thing, only more of it. That pile of examples is data.
+
+Do not hide the name at the end ("a machine that could work like that is what people mean by AGI"). Do not use "You don't..." as a costume for a definition ("You don't keep a different person for every kind of problem"). Do not open on mood or labor.
+
+After the point is made, stop. Do not write a leftover sentence that restates it in a vaguer, more "written" phrase. "that work is no longer only theirs" is that failure.
+
+## Work, when it actually comes up
+
+This site still has to tell the truth about work. It does not lead with it.
+
+- Say it after the reader knows what the thing is, usually in section 2, once the mechanism has landed.
+- The fact is replacement of workers, not "making paid work cheaper."
+- Also say that people can adapt: they check, they take what still fails, they move into work the system does not cover.
+- Both can be true. Do not leave a fear-only landing, an exciting-and-frightening landing, or a cheaper-only landing.
+- Do not sand replacement into "hard" or "a helper that shares the day."
+- Do not turn the page into a debate about the future of work. One or two sentences, then back to the idea.
+
+## The paragraph law
+
+Every sentence has to happen because of the one before it. If you can shuffle the sentences and the paragraph still "works," it is notes. Before a paragraph ships, say its point in one clause. If you cannot, it has no point.
+
+## Before it ships (do this, do not skip)
+
+The first draft will still produce lame lines. Catch them here, out loud, sentence by sentence, before the user sees them.
+
+For each sentence, answer:
+
+1. **What is the verb?** If you would not say it at a table (`named`, `stay with`, `sit with`, `take whatever comes next`), replace it with the ordinary verb (`used`, `do`, `ask`, `measure`, `score`).
+2. **Who is the subject?** If a term is acting (`AGI named`, `closed questions still do not say`), rewrite: people use the word; a person asked; a lab published.
+3. **Delete the last sentence.** If the paragraph still holds, it was leftover. Cut it. Vague closers (`no longer only theirs`, `a target, not a label`) fail this.
+4. **Is it X-not-Y?** (`a target, not a label`, `It is X. It is Y.`) Kill the contrast. Keep the fact, or stop.
+5. **Does it start by saying what something cannot do?** Hinge negatives are not transitions. Start with who did what.
+6. **Would you say this to someone, or does it only work on a page?** If it only works on a page, it is writing, not an explanation.
+
+If any check fails, fix it and run all six again. Do not ship a paragraph that has only been drafted.
+
+## Gold sample (this site)
+
+> You don't teach a kid what a dog is by reading them a definition. You point at one, then another, then a cat, and after enough pointing they just know. A machine needs the same thing, only more of it. That pile of examples is data.
+
+That is the sound. A person does something. Then you name it. Then you say why. The why is still about the idea (why machines need a pile), not about society.
+
+## Numbers
+
+When a page cites a live exam or a lab clock, look it up in the current month. Today is September 2026. Do not leave a 2025 launch score as if it were still true.
+
+Prefer the official board: Humanity's Last Exam on Scale and the Nature paper; ARC Prize for Chollet's puzzles; METR for how long a software job can be. Round so the number can be heard, and keep the fact an engineer would not dispute.
+
+As of September 2026, use these unless a fresh fetch says otherwise:
+
+- Humanity's Last Exam: 2,500 expert questions, Nature in January 2026. Launch scores in 2025 were in the single digits. By September 2026 the best score on Scale's official board is about 55 percent, and some independent reruns sit a few points higher. The paper still says a high score is expert answers on closed questions, not a life you can hand over.
+- ARC Prize, third version, March 2026: people solved every little game; machines scored under 1 percent. By September 2026 the score depends on the wrapper. One lab's system scored about 63 percent when it could only keep notes it chose to write down, and about 100 percent when the wrapper kept its private scratch work between turns. The puzzles stayed as hard as they were in March; the difference was the setup. The foundation declined to call the result AGI.
+- METR: hours of well-specified software work a system finishes half the time, versus eight times out of ten. Some 50-percent measurements now bump the 16-hour ceiling of the suite. METR warns that measurements above 16 hours are not trustworthy on the current tasks, and that the suite is mostly clean programming work, not a whole job.
+
+Do not paste model catalog names (letter-number SKUs) into the body. Proper names of people, labs, papers, and exams are fine. Unpack GPU, API, LLM, GPT, RLHF, and other letter soup.
 
 ## Do
 
-- Subject, verb, object. If you are listing kinds of a thing, fold them into one sentence with "for some" / "for others" / "including."
-- Ordinary words. Unpack terms. Keep people, years, and jobs.
-- Every sentence has to follow from the one before it. A stack of true-sounding lines is not an explanation.
+- Subject, verb, object.
+- Ordinary words. Unpack a term the first time. Use the verb a person would actually say: "do the work," not "stay with work," "sit with a job," or "take whatever comes next."
+- Keep people, years, and jobs.
+- One scene, not three examples.
 
 ## Do not
 
-- Fragment lists pretending to be paragraphs: "Match a typical person. Match an expert. Keep learning."
-- Forced contrast punchlines: "It is X. It is Y."
+- Fragment catalogs: "Match a typical person. Match an expert. Keep learning."
+- Forced contrast: "It is X. It is Y." "a target, not a label on a product." If the first clause has already said the fact, stop. Do not cap it with an X-not-Y.
+- Empty metaphors that could sit on any page: daily weather, sports fans refreshing a score.
 - Cheap words: trick, clever, dangerous, trophy, slogan, theater.
 - Meta: "Say this in a talk."
-- On AGI in particular: section 1 still explains the idea, once, the way Data explains a pile of examples. Later sections do not redefine it, and do not recast it as a task list. They go into how people live with the almost-version, why that is exciting and hard at once, and what named exams and labs are actually doing.
+- A topic sentence that would fit all twelve pages.
+- Restating section 1 in slightly more technical clothes.
+- Opening a topic page on social impact, cheaper work, or whether people should be excited or afraid.
+- Rewriting a page from scratch to satisfy only the latest comment.
+- Closing AGI in eval-methodology voice: "staffing," "the suite," "bump the ceiling." The last paragraph still has to be about the claim the word named, with the number attached.
+- Opening a paragraph by saying what the last thing cannot do: "Closed questions still do not say whether..." Name the next person and what they asked. Subject, verb, object. Active. A paper's own caveat can stay in the negative if that is what they said. A hinge sentence cannot.
+- Personifying a term: "AGI named a machine..." AGI is a word people use. It does not name, ask, or want. People use the term. Labs measure.
 
-## Example
+## Bad (this site)
 
-Bad: "Match a typical person on most desk jobs. Match an expert. Keep learning after you leave the factory."
+> That split is the daily weather in this industry. People refresh those boards the way sports fans refresh a score, and they also already let the same family of systems into homework, customer mail, and the first pass at a program.
 
-Good: "For some researchers, it means a system that can handle most desk jobs about as well as a typical adult. For others, it means expert-level work, or a system that keeps learning after it leaves the lab."
+No point. No cause. Nobody learns the idea.
+
+> A machine with that range would make a lot of paid work cheaper, which is why the idea is both exciting and frightening. If it can do the work they get paid for, that work is no longer only theirs.
+
+Wrong page job (mood, not an explanation). Wrong fact (cheaper, not replacement). Vague closer. No adaptation.
+
+> A Berkeley group called METR asks a different question, closer to staffing: if a well-specified software job would take a human expert a given number of hours, can an agent finish it.
+
+The last page of the chain landing on HR and a benchmark caveat. The number belongs; the smallness does not.
+
+> Closed questions still do not say whether a system can invent the rules of a situation it has not seen.
+
+Negative, passive, and a hinge. Start with Chollet and what he asked.
+
+## Good (this site, third section)
+
+> In 2009 a Stanford group led by Fei-Fei Li released a huge labeled photo set, ImageNet. The work was people looking at a picture and typing what they saw. In 2012 a deep stack trained on that set won the year's recognition contest by a wide margin.
+
+A person, a year, a thing that happened.

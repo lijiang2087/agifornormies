@@ -12,9 +12,13 @@ Every next idea answers: **what problem did this solve?** A story people can rec
 
 ## Voice
 
-Write like a WIRED feature, a New York Times explainer, or The Information. Complete sentences. Reported prose. No fragment lists, no punchlines, no trick/dangerous/trophy.
+This site explains the chain. Openings say what the thing is. They do not open on jobs, mood, or whether people should be excited.
 
-A topic page is one article for one reader. Under the title: an everyday picture. Then the mechanism. Then who did what, when, and what broke in production. Each section goes deeper. None of them recaps the last.
+College floor, then engineering detail, then named industry fact. Still no jargon. A sharp teenager can follow because the terms were unpacked, not because the prose was written down.
+
+When work comes up, say replacement of workers, not cheaper, and say people can adapt. Do not lead with that, and do not leave it out when the idea implies it.
+
+A new comment adds a constraint. It does not erase the last one. Full rules: `.cursor/rules/writing.mdc`.
 
 
 ## Acts (names only)
