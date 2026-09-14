@@ -1,0 +1,38 @@
+---
+description: Site-wide voice for AGI for Normies copy
+alwaysApply: true
+---
+
+# Writing
+
+Write like a WIRED feature, a New York Times explainer, or a piece in The Information. Complete sentences. Reported prose. A curious adult explaining something real.
+
+## One reader, three depths
+
+A topic page is one article. The same person reads all three sections, and each section goes deeper than the last.
+
+1. Under the title: one everyday picture. What the thing is. Stop there. Do not preview the mechanism or the history.
+2. The concept: how it works. New information. Assume they already have the picture.
+3. The industry section: who did what, when, what broke when it shipped. Assume they already have the mechanism.
+
+Do not recap. Do not write the same idea at three altitudes for three imagined audiences.
+
+## Do
+
+- Subject, verb, object. If you are listing kinds of a thing, fold them into one sentence with "for some" / "for others" / "including."
+- Ordinary words. Unpack terms. Keep people, years, and jobs.
+- Every sentence has to follow from the one before it. A stack of true-sounding lines is not an explanation.
+
+## Do not
+
+- Fragment lists pretending to be paragraphs: "Match a typical person. Match an expert. Keep learning."
+- Forced contrast punchlines: "It is X. It is Y."
+- Cheap words: trick, clever, dangerous, trophy, slogan, theater.
+- Meta: "Say this in a talk."
+- On AGI in particular: section 1 still explains the idea, once, the way Data explains a pile of examples. Later sections do not redefine it, and do not recast it as a task list. They go into how people live with the almost-version, why that is exciting and hard at once, and what named exams and labs are actually doing.
+
+## Example
+
+Bad: "Match a typical person on most desk jobs. Match an expert. Keep learning after you leave the factory."
+
+Good: "For some researchers, it means a system that can handle most desk jobs about as well as a typical adult. For others, it means expert-level work, or a system that keeps learning after it leaves the lab."

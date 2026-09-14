@@ -10,6 +10,13 @@ Li guides. Keep the map minimal. Build one block at a time.
 
 Every next idea answers: **what problem did this solve?** A story people can reconstruct, not a vocabulary pile.
 
+## Voice
+
+Write like a WIRED feature, a New York Times explainer, or The Information. Complete sentences. Reported prose. No fragment lists, no punchlines, no trick/dangerous/trophy.
+
+A topic page is one article for one reader. Under the title: an everyday picture. Then the mechanism. Then who did what, when, and what broke in production. Each section goes deeper. None of them recaps the last.
+
+
 ## Acts (names only)
 
 1. How machines learn — data, machine learning, neural nets
