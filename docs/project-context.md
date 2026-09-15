@@ -12,13 +12,9 @@ Every next idea answers: **what problem did this solve?** A story people can rec
 
 ## Voice
 
-This site explains the chain. Openings say what the thing is. They do not open on jobs, mood, or whether people should be excited.
+This site explains the chain. Every page: introduce the thing, then named examples, then two or three questions a sharp reader would ask.
 
-College floor, then engineering detail, then named industry fact. Still no jargon. A sharp teenager can follow because the terms were unpacked, not because the prose was written down.
-
-When work comes up, say replacement of workers, not cheaper, and say people can adapt. Do not lead with that, and do not leave it out when the idea implies it.
-
-A new comment adds a constraint. It does not erase the last one. Full rules: `.cursor/rules/writing.mdc`.
+The reader is a person in San Francisco who already knows some AI and wants context. Write normal sentences, the way they would explain it. No jargon they would google. No sentences that sound generated. Full rules: `.cursor/rules/writing.mdc`.
 
 
 ## Acts (names only)

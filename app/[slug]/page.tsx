@@ -52,26 +52,21 @@ export default async function TopicPage({ params }: PageProps) {
             <p key={paragraph}>{paragraph}</p>
           ))}
         </div>
-        <section className="mt-14 border-t border-ink/8 pt-14">
-          <h2 className="font-heading text-3xl sm:text-4xl">
-            {topic.concept.title}
-          </h2>
-          <div className="mt-6 space-y-5 text-[17px] leading-8 text-quiet">
-            {topic.concept.paragraphs.map((paragraph) => (
-              <p key={paragraph}>{paragraph}</p>
-            ))}
-          </div>
-        </section>
-        <section className="mt-14 border-t border-ink/8 pt-14">
-          <h2 className="font-heading text-3xl sm:text-4xl">
-            {topic.talk.title}
-          </h2>
-          <div className="mt-6 space-y-5 text-[17px] leading-8 text-ink">
-            {topic.talk.paragraphs.map((paragraph) => (
-              <p key={paragraph}>{paragraph}</p>
-            ))}
-          </div>
-        </section>
+        {topic.questions.map((item) => (
+          <section
+            key={item.question}
+            className="mt-14 border-t border-ink/8 pt-14"
+          >
+            <h2 className="font-heading text-3xl sm:text-4xl">
+              {item.question}
+            </h2>
+            <div className="mt-6 space-y-5 text-[17px] leading-8 text-ink">
+              {item.paragraphs.map((paragraph) => (
+                <p key={paragraph}>{paragraph}</p>
+              ))}
+            </div>
+          </section>
+        ))}
         <div className="mt-14 flex flex-wrap items-center gap-x-6 gap-y-2 text-sm">
           <Link href="/" className="text-quiet underline-offset-4 hover:underline">
             The chain
